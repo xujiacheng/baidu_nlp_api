@@ -7,11 +7,8 @@ def run():
 		from aip import AipNlp
 		
 	except: 
-		print "Cannot find AipNlp Module. Make sure you import this library. Please check Readme.md for instruction"
-
-
-
-
+		print "Cannot find AipNlp Module. Make sure you have this library. Please check README.md for instruction"
+	
 
 def create_client_instance():
 	# create a new client
